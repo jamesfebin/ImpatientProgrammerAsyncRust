@@ -1,0 +1,6 @@
+# Each chapter is its OWN complete, frozen workspace. Clone-and-go: this folder
+# builds and runs on its own, exactly as the chapter left it. Later chapters are
+# this same workspace with more code — never a diff you have to reconstruct.
+[workspace]
+resolver = "3"
+members = ["tinyrt"]
